@@ -5,7 +5,8 @@ class Team:
         the instance variable self.word.  Remember a noun is a person,
         place, or thing. """
         # TODO by person 3
-        pass
+        self.word = raw_input('Enter a Noun: ')
+
         
 
     def reverse_input(self):
@@ -21,7 +22,7 @@ class Team:
         <self.word> while walking on the beach.' replacing <self.word>
         for the noun that was chosen during class construction. """
 	  # TODO by person 2
-        pass
+	print 'Today I dreamt of ',self.word,' while walking on the beach'
 
 t = Team()
 t.reverse_input()
