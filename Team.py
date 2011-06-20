@@ -5,14 +5,14 @@ class Team:
         the instance variable self.word.  Remember a noun is a person,
         place, or thing. """
         # TODO by person 3
+        pass
         
 
     def reverse_input(self):
         """ Changes self.word to its reverse.  For example if
         self.word is 'apples', then it becomes 'selppa'."""
         # TODO by person 1
-        reverse =self.word[::-1]
-        print reverse
+        pass
 
     
     def print_in_sentence(self):
