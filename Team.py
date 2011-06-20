@@ -12,7 +12,8 @@ class Team:
         """ Changes self.word to its reverse.  For example if
         self.word is 'apples', then it becomes 'selppa'."""
         # TODO by person 1
-        pass
+        reverse =self.word[::-1]
+        print reverse
 
     
     def print_in_sentence(self):
